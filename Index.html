@@ -5,19 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <div class="header__burger" onclick="myFunction(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
+      <header class="header">
+        <a
+          href="https://www.figma.com/file/qHglDu1GsG5zBhA1I8pqTF/Tutorify-Learning-Website-(Community)?node-id=324%3A3941&t=IXux2gj3J9vwdc16-0"
+          class="header__link"
+          >Figma design<img src="" alt="logo" class="logo"
+        /></a>
+
+        <ul class="header__links links">
+          <li class="links__item">
+            <a href="#" class="item-orange">Home</a>
+          </li>
+          <li class="links__item">
+            <a href="#">Course</a>
+          </li>
+          <li class="links__item">
+            <a href="#">About</a>
+          </li>
+          <li class="links__item">
+            <a href="#">Pricing</a>
+          </li>
+        </ul>
+
+        <div class="header__actions actions">
+          <a href="#" class="actions__login">Sign in</a>
+          <button class="button-green">Login</button>
         </div>
-        <div class="header__logo"></div>
-        <div class="header__search"></div>
-        <div class="header__actions"></div>
       </header>
+
+      <main class="main">
+        <div class="main__text description">
+          <h1 class="description__title">
+            start become your best
+            <span class="orange-text">self</span>
+          </h1>
+          <span class="description__text"
+            >At Bachira, you can shop for all your favorite beauty brands,
+            clothes, household products and more at a single place.
+          </span>
+          <div class="main__items">
+            <div class="item">
+              <h2 class="item-title">100+</h2>
+              <h4 class="item-description">students</h4>
+            </div>
+            <div class="item">
+              <h2 class="item-title">100+</h2>
+              <h4 class="item-description">students</h4>
+            </div>
+            <div class="item">
+              <h2 class="item-title">100+</h2>
+              <h4 class="item-description">students</h4>
+            </div>
+          </div>
+          <button class="button-green">Free Lesson</button>
+        </div>
+        <img src="/img/boy-main.svg" alt="" class="main__img" />
+      </main>
     </div>
   </body>
 </html>
