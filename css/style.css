@@ -6,6 +6,7 @@
 
 body {
   font-family: "Bebas Neue", cursive;
+  max-width: 1440px;
 }
 
 .wrapper {
@@ -26,6 +27,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
+  font-family: "Poppins";
 }
 
 /* == burger ===================================== */
@@ -76,6 +78,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 27px;
 }
 
 .header__logo {
@@ -117,7 +120,7 @@ body {
   color: rgb(8, 4, 4);
   padding: 14px 16px;
   background-color: inherit;
-  font-family: "Inter";
+  font-family: "Poppins";
   width: 160px;
   margin: 0;
 }
@@ -167,7 +170,7 @@ body {
   justify-content: center;
   width: 150px;
   height: 50px;
-  font-family: "Inter";
+  font-family: "Poppins";
   font-size: 26px;
   border-radius: 10px;
   border: none;
@@ -251,22 +254,30 @@ body {
   columns: #f2994a;
 }
 .header__actions {
+  display: flex;
 }
 
 .actions {
+  display: flex;
+  width: 213px;
+  height: 40px;
 }
 
-.actions__login {
-  color: var(--black);
+.actions__signup {
+  display: flex;
+  color: #000;
+  padding-top: 11px;
+  margin-right: 30px;
+  text-decoration: underline;
 }
 
-.button-green {
+.button-orange {
   color: #fff;
   font-size: 16px;
   background-color: #f2994a;
   border: none;
   border-radius: 8px;
-  padding: 12px 18px;
+  padding: 8px 42px;
 }
 
 /* =======  main  ================================= */
@@ -274,19 +285,13 @@ body {
 .main {
   display: flex;
   justify-content: space-between;
-}
-
-@media only screen and (max-width: 600px) {
-  .main {
-    justify-content: center;
-  }
+  align-items: center;
 }
 
 .main__text {
+  width: 680px;
 }
 .description {
-  margin-top: 100px;
-  max-width: 330px;
 }
 
 .description .button-green {
@@ -298,7 +303,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 110px;
-  line-height: 132px;
+  line-height: 110px;
   color: #333333;
   text-transform: uppercase;
 }
@@ -306,18 +311,20 @@ body {
   color: #f2994a;
 }
 .description__text {
+  width: 430px;
+  height: 120px;
   display: block;
-  margin-top: 32px;
-  font-size: 14px;
+  padding-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
   font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0.3px;
-  color: var(--grey);
+  font-size: 16px;
+  line-height: 30px;
+  color: #828282;
 }
 
 .main__img {
   margin-top: 44px;
-  max-width: 50vw;
   height: 100%;
 }
 
@@ -331,12 +338,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 20px;
+  margin: 0;
+  font-family: "Poppins";
+  padding-bottom: 35px;
 }
 
 .item + .item {
-  margin-left: 52px;
+  margin-left: 50px;
 }
 .item {
+  padding: 0;
+  margin: 0;
 }
 
 .item-title {
@@ -346,13 +359,11 @@ body {
   line-height: 120%;
   color: #333333;
   text-transform: uppercase;
-  padding-bottom: 27px;
+  padding-bottom: 10px;
   padding-right: 43px;
-  margin-top: 25px;
 }
 
 .item-description {
-  font-family: "Muli";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -361,4 +372,184 @@ body {
   text-transform: uppercase;
 }
 .main__img {
+}
+
+.button-orange__start {
+  color: #fff;
+  font-size: 16px;
+  background-color: #f2994a;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 42px;
+}
+
+.form-search {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  width: 850px;
+  height: 80px;
+}
+
+input {
+  width: 450px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(201, 201, 201, 0.25);
+  border-radius: 4px;
+  font-family: "Poppins";
+  color: #828282;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.6px;
+  padding-left: 70px;
+}
+input:invalid ~ span::after {
+  content: "✖";
+  padding-left: 5px;
+  position: absolute;
+}
+
+input:valid ~ span::after {
+  content: "✓";
+  padding-left: 5px;
+  position: absolute;
+}
+.placeholder {
+}
+.button-search {
+  position: absolute;
+  padding: 8px 25px;
+  gap: 10px;
+  width: 104px;
+  height: 40px;
+  background: #f2994a;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  font-family: "Poppins";
+  letter-spacing: 0.5px;
+  margin-left: 15px;
+}
+
+/* ==== about ============================================================================================================= */
+
+.about {
+  display: flex;
+  padding-top: 35px;
+  font-family: "Poppins";
+}
+.about__img {
+  margin: 0;
+}
+.about__text {
+  margin-top: 102px;
+  margin-left: 150px;
+}
+.description {
+}
+.item-description {
+}
+.about__title {
+  width: 564px;
+  height: 144px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #333333;
+}
+.description__text {
+}
+.about__actions {
+  display: flex;
+  padding-top: 35px;
+  width: 500px;
+}
+
+.button-orange__getstarted {
+  width: 245px;
+  height: 68px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #fff;
+  background-color: #f2994a;
+  border: none;
+  border-radius: 8px;
+  padding: 23px 38px;
+}
+
+.actions__watch {
+  display: flex;
+  width: 160px;
+  height: 45px;
+  margin-top: 12px;
+  margin-left: 25px;
+}
+.icon-play {
+}
+
+.link__play {
+  width: 168px;
+  padding-top: 12px;
+  margin-left: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+
+/* ==== why us =============================================================================== */
+
+.whyus {
+  display: flex;
+  padding-top: 35px;
+  font-family: "Poppins";
+  width: 1237px;
+  margin-top: 88px;
+
+}
+
+.whyus__text {
+  margin-top: 102px;
+}
+
+.whyus__title {
+  width: 564px;
+  height: 144px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.whyus__checkbox {
+  display: flex;
+}
+
+.whyus__description {
+  width: 443px;
+  height: 48px;
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #333333;
+  padding: 26px;
+}
+
+.whyus-img {
+  margin-left: 120px;
 }
