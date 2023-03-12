@@ -337,7 +337,6 @@ body {
 .main__items {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding-top: 20px;
   margin: 0;
   font-family: "Poppins";
@@ -514,7 +513,6 @@ input:valid ~ span::after {
   font-family: "Poppins";
   width: 1237px;
   margin-top: 88px;
-
 }
 
 .whyus__text {
