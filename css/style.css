@@ -811,7 +811,7 @@ footer {
   color: #ffffff;
 }
 
-.footer__link {
+li {
   color: #fff;
   font-family: "DM Sans";
   font-style: normal;
@@ -821,5 +821,10 @@ footer {
   letter-spacing: -0.204545px;
   padding-top: 20px;
   width: 65px;
+  margin-left: 100px;
+}
+
+.footer__link {
+  color: #fff;
 }
 
