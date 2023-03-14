@@ -7,6 +7,7 @@
 body {
   font-family: "Bebas Neue", cursive;
   max-width: 1440px;
+  box-sizing: border-box;
 }
 
 .wrapper {
@@ -29,6 +30,7 @@ body {
   padding: 15px 0;
   font-family: "Poppins";
 }
+
 
 /* == burger ===================================== */
 .container {
@@ -178,8 +180,14 @@ body {
   margin: 0;
   padding: 0;
 }
-.button__signup {
-  background-color: rgb(255, 231, 15);
+
+button:hover,
+button:focus {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.actions__signup {
   color: #000;
 }
 
@@ -224,15 +232,13 @@ body {
 
 .header__links {
   display: flex;
-}
-
-@media only screen and (max-width: 600px) {
-  .header__links {
-    display: none;
-  }
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
 .links {
+  margin: 0;
 }
 
 .links__item + .links__item {
@@ -246,8 +252,13 @@ body {
 }
 
 .links__item a {
+  display: block;
   color: var(--grey);
   font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+
 }
 
 .item-orange {
@@ -824,7 +835,12 @@ li {
   margin-left: 100px;
 }
 
+li a:hover,
+li a:focus {
+  text-decoration: underline;
+
+}
+
 .footer__link {
   color: #fff;
 }
-
