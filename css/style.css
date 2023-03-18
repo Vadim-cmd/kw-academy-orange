@@ -6,7 +6,6 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
   margin-right: 150px;
   margin-left: 120px;
 }
@@ -21,7 +20,7 @@ body {
   font-family: "Poppins";
 }
 
-li ul a {
+li, ul, a {
   margin: 0;
   padding: 0;
 
@@ -37,7 +36,6 @@ li ul a {
 .header__actions {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   width: 215px;
 }
 
@@ -73,11 +71,14 @@ button:focus {
   margin-left: 20px;
 }
 
+/* logo link */
 .header__link {
   font-family: "Poppins";
   color: #101913;
   font-weight: 900;
   font-size: 25px;
+  padding: 20px;
+  width: 65px;
 }
 
 .header__link-orange {
@@ -91,8 +92,6 @@ button:focus {
 
 .header__links {
   display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 0;
 }
 
@@ -100,13 +99,12 @@ button:focus {
   margin: 0;
 }
 
-.links__item a {
+.links__item {
   display: block;
   color: var(--grey);
   font-size: 26px;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
+  padding: 40px 20px;
+
 }
 
 /* .item-orange {
@@ -115,22 +113,23 @@ button:focus {
 
 .header__actions {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-right: 25px;
+  
+  
 }
 
-/* .actions {
+.actions {
   display: flex;
   width: 213px;
   height: 40px;
-} */
+} 
 
 .actions__signup {
   color: #000;
-  padding-top: 11px;
-  margin-right: 30px;
+  padding: 40px;
+  margin-left: 0px;
   text-decoration: underline;
-  width: 514px;
+  
 }
 
 .button-orange {
@@ -697,7 +696,6 @@ footer {
 }
 
 .footer__links {
-  margin-top: 100px;
   width: 65px;
   height: 22px;
   font-family: "DM Sans";
@@ -717,9 +715,7 @@ li {
   font-size: 15px;
   line-height: 20px;
   letter-spacing: -0.204545px;
-  padding-top: 20px;
   width: 65px;
-  margin-left: 100px;
 }
 
 li a:hover,
