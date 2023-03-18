@@ -8,7 +8,7 @@ body {
   font-family: "Bebas Neue";
   max-width: 1440px;
   box-sizing: border-box;
-  display: device;
+  margin: 0 auto;
 }
 
 .wrapper {
@@ -50,6 +50,8 @@ body {
 /* ===== header buttons ===================================*/
 .header__actions {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .button__login {
   background-color: #fff;
@@ -78,6 +80,7 @@ button:focus {
 
 .actions__signup {
   color: #000;
+  font-size: 26px;
 }
 
 .header__link {
@@ -120,7 +123,7 @@ button:focus {
 .links__item a {
   display: block;
   color: var(--grey);
-  font-size: 16px;
+  font-size: 26px;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
@@ -149,7 +152,7 @@ button:focus {
 
 .button-orange {
   color: #fff;
-  font-size: 16px;
+  font-size: 26px;
   background-color: #f2994a;
   border: none;
   border-radius: 8px;
@@ -193,7 +196,7 @@ button:focus {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 26px;
   line-height: 30px;
   color: #828282;
 }
@@ -240,7 +243,7 @@ button:focus {
 .item-description {
   font-style: normal;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 120%;
   color: #f2994a;
   text-transform: uppercase;
@@ -250,7 +253,7 @@ button:focus {
 
 .button-orange__start {
   color: #fff;
-  font-size: 16px;
+  font-size: 26px;
   background-color: #f2994a;
   border: none;
   border-radius: 8px;
@@ -273,7 +276,7 @@ input {
   border-radius: 4px;
   font-family: "Poppins";
   color: #828282;
-  font-size: 16px;
+  font-size: 26px;
   line-height: 150%;
   letter-spacing: 0.6px;
   padding-left: 70px;
@@ -350,7 +353,7 @@ input:valid ~ span::after {
   font-family: "Helvetica";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 23px;
   color: #fff;
   background-color: #f2994a;
@@ -376,7 +379,7 @@ input:valid ~ span::after {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 26px;
   line-height: 24px;
   color: #4f4f4f;
 }
@@ -416,7 +419,7 @@ input:valid ~ span::after {
   font-family: "Muli";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 26px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #333333;
@@ -459,7 +462,7 @@ input:valid ~ span::after {
   font-family: "Muli";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 26px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #333333;
@@ -481,7 +484,7 @@ input:valid ~ span::after {
 .tarif__title {
   font-family: "Poppins";
   font-weight: 600;
-  font-size: 24.5698px;
+  font-size: 25px;
   line-height: 37px;
   color: #333333;
 }
@@ -490,7 +493,7 @@ input:valid ~ span::after {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 13.1624px;
+  font-size: 24px;
   line-height: 20px;
   color: #848199;
   width: 203px;
@@ -506,7 +509,7 @@ input:valid ~ span::after {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 13.1624px;
+  font-size: 24px;
   line-height: 20px;
   color: #848199;
   line-height: 23px;
@@ -520,7 +523,7 @@ input:valid ~ span::after {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 31.5897px;
+  font-size: 37px;
   line-height: 40px;
   color: #333333;
   margin-top: 21px;
@@ -530,7 +533,7 @@ input:valid ~ span::after {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 14.9174px;
+  font-size: 25px;
   line-height: 22px;
   color: #848199;
   margin-top: 36px;
@@ -546,7 +549,7 @@ input:valid ~ span::after {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 12.2849px;
+  font-size: 23px;
   line-height: 18px;
   color: #f2994a;
   padding: 7px 45px;
@@ -572,7 +575,7 @@ input:valid ~ span::after {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 26px;
   line-height: 21px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -595,7 +598,7 @@ input:valid ~ span::after {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 28px;
   line-height: 27px;
   color: #4f4f4f;
   margin-top: 11px;
@@ -605,7 +608,7 @@ input:valid ~ span::after {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 21px;
   color: #000000;
 }
@@ -614,7 +617,7 @@ input:valid ~ span::after {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 21px;
   color: #828282;
 }
@@ -652,7 +655,7 @@ footer {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 27px;
   line-height: 22px;
   letter-spacing: -0.231818px;
   color: #ffffff;
@@ -663,7 +666,7 @@ footer {
 .footer__button-orange {
   margin-top: 40px;
   color: #fff;
-  font-size: 16px;
+  font-size: 26px;
   background-color: #f2994a;
   border: none;
   border-radius: 8px;
@@ -677,7 +680,7 @@ footer {
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 25px;
   line-height: 20px;
   letter-spacing: -0.204545px;
   color: #ffffff;
