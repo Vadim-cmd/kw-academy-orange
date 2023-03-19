@@ -41,9 +41,10 @@ body {
   align-items: center;
   padding: 30px 0px 30px 0px;
   font-family: "Poppins";
-  width: 1200px;
   margin: 0;
   padding: 0;
+  margin-left: 50px;
+  margin-right: 50px;
 
 }
 
@@ -57,7 +58,7 @@ body {
   font-family: "Poppins";
   color: #101913;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 27px;
   width: 210px;
   border-radius: 10px;
 }
@@ -88,7 +89,7 @@ body {
   font-family: "Poppins";
   width: 85px;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 24px;
 } 
 
 /* ===== header buttons ===================================*/
@@ -147,6 +148,7 @@ button:focus {
 .main {
   display: flex;
   align-items: center;
+  margin-top: 30px;
 }
 
 .main__text {
@@ -425,7 +427,9 @@ input:valid ~ span::after {
 }
 
 .whyus-img {
+  display: flex;
   margin-left: 0px;
+  
 }
 
 /* ==== pricing ===================================================================== */
@@ -435,7 +439,6 @@ input:valid ~ span::after {
   padding-top: 35px;
   font-family: "Poppins";
   width: 1237px;
-  margin-left: 120px;
 }
 
 .pricing__text {
@@ -576,7 +579,6 @@ input:valid ~ span::after {
   padding-top: 35px;
   font-family: "Poppins";
   width: 1237px;
-  margin-left: 120px;
 }
 
 .reviews__container {
@@ -735,12 +737,13 @@ li a:focus {
 
 .links__media {
   gap: 25px;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   opacity: 80%;
-  padding: 5px;
-  background-color: #f8f5f51c;
+  padding: 10px;
   border-radius: 50%;
+  border: 1px solid white;
+  margin-left: 10px;
 }
 
 .footer__block{
