@@ -9,7 +9,30 @@ body {
   margin-right: 150px;
   margin-left: 120px;
 }
+/* === langugage switcher =========================================================== */
+.mzp-c-language-switcher{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  font-family: serif;
+  font-weight: 300;
+  font-size: 25px;
 
+}
+.mzp-js-language-switcher-select{
+  font-family: serif;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.submit {
+  font-family: serif;
+  font-weight: 300;
+  font-size: 25px;
+  width: 40px;
+  height: 30px;
+
+}
 /* === header ============================================================= */
 
 .header {
@@ -19,13 +42,14 @@ body {
   padding: 30px 0px 30px 0px;
   font-family: "Poppins";
   width: 1200px;
+  margin: 0;
+  padding: 0;
 
 }
 
 .header__logo {
   display: flex;
   width: 210px;
-  height: 250px;
 }
 
 /* logo link */
@@ -63,7 +87,6 @@ body {
   color: #101913;
   font-family: "Poppins";
   width: 85px;
-  height: 250px;
   font-weight: normal;
   font-size: 21px;
 } 
@@ -95,7 +118,6 @@ button:focus {
   display: flex;
   align-items: center;
   width: 290px;
-  height: 250px;
   margin-right: 15px;
 
 }
